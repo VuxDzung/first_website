@@ -1,4 +1,4 @@
-body {
+/*body {
     background-color: #00008b;
 }
 
@@ -11,4 +11,62 @@ h1 {
 p{
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
+}
+*/
+body {
+    background-color: #00008b;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.skip-link:focus {
+    top: 10px;
+    opacity: 1;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
 }
