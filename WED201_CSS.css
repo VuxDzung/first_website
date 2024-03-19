@@ -45,21 +45,27 @@ img {
     height: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 760px) {
     img {
-        max-height: 30vh;
+        max-height: 76vh;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     img {
-        max-height: 30vh;
+        max-height: 27vh;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 270px) {
     img {
-        max-height: 90vh;
+        max-height: 27vh;
+    }
+}
+
+@media screen and (max-width: 150px) {
+    img {
+        max-height: 15vh;
     }
 }
 
