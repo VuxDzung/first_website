@@ -14,11 +14,15 @@ p{
 }
 */
 body {
-    background-color: #00008b;
+    background-color: #1a212b;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+.mainHeadDiv {
+    text-align: center;
 }
 
 .skip-link {
@@ -31,6 +35,13 @@ body {
     z-index: 9999;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    width: auto;
+    aspect-ratio: 1920 / 1080;
 }
 
 .skip-link:focus {
