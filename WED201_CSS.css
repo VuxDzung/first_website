@@ -38,11 +38,29 @@ body {
 }
 
 img {
+    border-radius: 20px;
     max-width: 100%;
     max-height: 100%;
-    height: auto;
     width: auto;
-    aspect-ratio: 1920 / 1080;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        max-height: 30vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        max-height: 30vh;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    img {
+        max-height: 30vh;
+    }
 }
 
 .skip-link:focus {
@@ -57,7 +75,7 @@ header {
 
 main {
     display: grid;
-    place-items: center;
+    text-align: center;
     padding: 20px;
 }
 
