@@ -59,7 +59,7 @@ img {
 
 @media screen and (max-width: 300px) {
     img {
-        max-height: 30vh;
+        max-height: 90vh;
     }
 }
 
