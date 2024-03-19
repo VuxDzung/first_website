@@ -81,7 +81,7 @@ header {
 
 main {
     display: grid;
-    text-align: center;
+    place-content: center;
     padding: 20px;
 }
 
